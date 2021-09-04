@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(js.js);
+body {
+    background: #000000;
+}
+
+.poster {
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width:1204px) {
+    .hideOnSmallScreen {
+        display: none;
+    }
+}
+
+.hideOnSmallScreen {
+    max-height: 360px;
+    overflow: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.hideOnSmallScreen::-webkit-scrollbar {
+    /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.yellwHeadingFont {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(245, 197, 24);
+}
+
+.lightBlackBg {
+    background-color: #201c1c;
+    object-fit: cover;
+    border: 2px solid black;
+    color: #ffffff;
+}
+
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-rss {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+
+.fa-youtube {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-linkedin {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-github {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+.smallstaricon{
+    width: 18px;
+    height: 18px;
+}
+
+
+button.test{
+    background: none;
+    border: none;
+    color:  white;
+    cursor: pointer;
+}
+button i{
+    transition: .2s ease;
+}
+button:hover i{
+    transform: scale(1.3);
+}
+.animate{
+    color: crimson;
+}
+
+.buttonStyle{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(87, 153, 239);
+    background: #302c2c ;
+}
+
+
+.play-btn{
+    height: auto;
+    width: 16.8%;
+}
+

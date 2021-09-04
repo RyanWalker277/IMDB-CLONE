@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Hello, world!</title>
+    <script src="navbar.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+
+        <div onclick="openNav()" style="color: white;" class="float-left ms-5 me-5"><span class="navbar-toggler-icon"></span>
+        </div>
+        <a class="navbar-brand" href="#" class="float-left">
+            <img src="https://img.icons8.com/color/48/000000/imdb.png" />
+        </a>
+        <form class="flex-fill mx-5 ">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <button class="btn btn-sm dropdown-toggle py-2 px-2 rounded-property border" style = "background-color: white;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+        </form>
+        <button type="button" class="btn btn-dark float-left pe-5 me-5">SignIn</button>
+
+    </nav>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
